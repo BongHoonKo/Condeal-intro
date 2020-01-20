@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>CONDEAL</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#09a7b4">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#09a7b4">
+    <link href="./static/favi.ico" rel="shortcut icon">
+    <link rel="stylesheet" href="css/index.css"/>
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/language.js"></script>
+</head>
+<body>
+<!-- Header -->
+<header class="hd">
+    <div class="hd__lang-wrap mo">
+        <select class="hd__lang">
+            <option class="lang-link" value="ko">KOR</option>
+            <option class="lang-link" value="en">ENG</option>
+            <option class="lang-link" value="zh">CHN</option>
+        </select>
+    </div>
+    <h1 class="hd__logo"><a href="index.html"><img src="images/common/logo.png" alt="CONDEAL"></a></h1>
+    <nav class="hd__navi">
+        <ul class="hd__menu">
+            <li><a href="index.html">CONDEAL</a></li>
+            <li><a href="deal.html">DEAL</a></li>
+            <li><a href="structure.html">structure</a></li>
+            <li><a href="scenario.html">scenario</a></li>
+            <li><a href="team.html">team</a></li>
+            <li><a href="partners.html">partners</a></li>
+        </ul>
+        <div class="hd__lang-wrap pc">
+            <select class="hd__lang">
+                <option class="lang-link" value="ko">KOR</option>
+                <option class="lang-link" value="en">ENG</option>
+                <option class="lang-link" value="zh">CHN</option>
+            </select>
+        </div>
+        <!--<div class="hd__lang-wrap pc">-->
+        <!--<button class="lang-link" v-on:click="changeLocale('ko')">KO</button>-->
+        <!--<button class="lang-link" v-on:click.prevent="changeLocale('en')">EN</button>-->
+        <!--</div>-->
+    </nav>
+    <button class="hd-menu__btn">
+        <i class="hd-menu__btn__line"></i>
+    </button>
+    <div class="bg-mo-menu"></div>
+</header>
+
+<!-- Content -->
+<div class="contents">
+    <div>
+        <section class="iconic-partners">
+            <h3 class="section-tit layout">
+                <img src="images/common/icon_symbol.png" alt="">
+                <p>Team</p>
+            </h3>
+            <div class="iconic-tit">
+                <p class="tit-area layout"><img src="images/partner/iconic_tit.png" alt=""></p>
+            </div>
+            <div class="layout">
+                <div class="award-warp" >
+                    <ul class="award-list">
+                        <li>
+                            <img src="images/team/team_list_1.png" alt="">
+                            <h3 data-translate="partners.music['kts']"></h3>
+                            <p data-translate="partners.music['ktsDesc']"></p>
+                        </li>
+                        <li>
+                            <img src="images/team/team_list_2.png" alt="">
+                            <h3>Command Freaks</h3>
+                            <p data-translate="partners.music['freaksDesc']"></p>
+                        </li>
+                        <li>
+                            <img src="images/team/team_list_3.png" alt="">
+                            <h3>Secret Weapon</h3>
+                            <p data-translate="partners.music['weaponDesc']"></p>
+                        </li>
+                        <li>
+                            <img src="images/team/team_list_4.png" alt="">
+                            <h3>Stereo Typpes</h3>
+                            <p data-translate="partners.music['stereoDesc']"></p>
+                        </li>
+                        <li>
+                            <img src="images/team/team_list_5.png" alt="">
+                            <h3>Rodnet Jerkins</h3>
+                            <p data-translate="partners.music['JerkinsDesc']"></p>
+                        </li>
+                        <li>
+                            <img src="images/team/team_list_6.png" alt="">
+                            <h3>Under Dogs</h3>
+                            <p data-translate="partners.music['dogsDesc']"></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="disco-wrap">
+                    <p class="disco-tit">DISCOGRAPHY</p>
+                    <div class="disco-inner">
+                        <p class="year-txt">2016</p>
+                        <ul class="disco-list">
+                            <li>
+                                <span data-translate="partners.music['SHINee']"></span>
+                                <span>1 of 1 – The 5th Album</span>
+                            </li>
+                            <li>
+                                <span data-translate="partners.music['EXO']"></span>
+                                <span>LOTTO – The 3rd Album Repackage EX'ACT</span>
+                            </li>
+                            <li>
+                                <span data-translate="partners.music['girlsGeneration']"></span>
+                                <span>Sailing 0805</span>
+                            </li>
+                            <li>
+                                <span data-translate="partners.music['taeYeon']"></span>
+                                <span>Why – The 2nd Mini Album</span>
+                            </li>
+                            <li>
+                                <span data-translate="partners.music['redVelvet']"></span>
+                                <span>The Velvet</span>
+                            </li>
+                            <li>
+                                <span data-translate="partners.music['GOT7']"></span>
+                                <span>Flight Log: Departure</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="disco-inner">
+                        <p class="year-txt">2015</p>
+                        <ul class="disco-list">
+                            <li>
+                                <span>BOA</span>
+                                <span>1 of 1 – The 5th Album</span>
+                            </li>
+                            <li>
+                                <span data-translate="partners.music['EXO']"></span>
+                                <span>Exodus</span>
+                            </li>
+                            <li>
+                                <span data-translate="partners.music['redVelvet']"></span>
+                                <span>IceCream Cake</span>
+                            </li>
+                            <li>
+                                <span data-translate="partners.music['superJunior']"></span>
+                                <span>Present</span>
+                            </li>
+                            <li>
+                                <span>Miss A</span>
+                                <span>Colors</span>
+                            </li>
+                            <li>
+                                <span data-translate="partners.music['sistar']"></span>
+                                <span>Shake it</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div>
+        <div class="section-bar" style="height: 3rem; background-color: black"></div>
+        <section class="comica-partners">
+            <div class="comica-tit">
+                <p class="tit-area layout"><img src="images/partner/comica_tit.png" alt=""></p>
+            </div>
+            <div class="layout">
+                <div class="comica-desc">
+                    <h3 data-translate="partners.webToon['comicaTitle']"></h3>
+                    <p data-translate="partners.webToon['comicaTxt']"></p>
+                </div>
+                <div class="comica-wrap">
+                    <p class="hist-tit">HISTORY</p>
+                    <div class="comica-inner">
+                        <p class="year-txt">2017</p>
+                        <div class="comica-txt">
+                            <p data-translate="partners.webToon['2017History1']"></p>
+                            <p>
+                                <span class="txt-inherit" data-translate="partners.webToon['2017History2']"></span><br>
+                                <span class="txt-inherit" data-translate="partners.webToon['2017History3']"></span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="comica-inner">
+                        <p class="year-txt">2016</p>
+                        <div class="comica-txt">
+                            <p>
+                                <span class="txt-inherit" data-translate="partners.webToon['2016History1']"></span><br>
+                                <span class="txt-inherit" data-translate="partners.webToon['2016History2']"></span>
+                            </p>
+                            <p data-translate="partners.webToon['2016History3']"></p>
+                        </div>
+                    </div>
+                    <div class="comica-inner">
+                        <p class="year-txt">2015</p>
+                        <div class="comica-txt">
+                            <p>
+                                <span class="txt-inherit" data-translate="partners.webToon['2015History1']"></span><br>
+                                <span class="txt-inherit" data-translate="partners.webToon['2015History2']"></span><br/>
+                                <span class="txt-inherit" data-translate="partners.webToon['2015History3']"></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="section-bar" style="height: 3rem; background-color: black"></div>
+    </div>
+
+    <section class="sup-partners">
+        <div class="sup-inner">
+            <div class="business-box" >
+                <img src="images/buss_1.png" alt="">
+                <p>
+                    <span class="txt-inherit" data-translate="partners.soft['HOAsoft1']"></span><br/>
+                    <span class="txt-inherit" data-translate="partners.soft['HOAsoft2']"></span><br/>
+                    <span class="txt-inherit" data-translate="partners.soft['HOAsoft3']"></span><br/>
+                    <span class="txt-inherit" data-translate="partners.soft['HOAsoft4']"></span><br/>
+                    <span class="txt-inherit" data-translate="partners.soft['HOAsoft5']"></span>
+                </p>
+            </div>
+            <div class="business-box">
+                <img src="images/buss_2.png" alt="">
+                <p>
+                    <span class="txt-inherit" data-translate="partners.soft['sunjeSoft1-1']"></span><br/>
+                    <span class="txt-inherit" data-translate="partners.soft['sunjeSoft1-2']"></span>
+                </p>
+                <p>
+                    <span class="txt-inherit" data-translate="partners.soft['sunjeSoft2-1']"></span><br/>
+                    <span class="txt-inherit" data-translate="partners.soft['sunjeSoft2-2']"></span>
+                </p>
+                <p>
+                    <span class="txt-inherit" data-translate="partners.soft['sunjeSoft3-1']"></span><br/>
+                    Citi Global Market Sec, BNP Paribas Securities,<br>
+                    <span class="txt-inherit" data-translate="partners.soft['sunjeSoft3-2']"></span>
+                </p>
+            </div>
+        </div>
+    </section>
+</div>
+
+<!-- Footer -->
+<footer class="ft">
+    <div class="layout">
+        <div class="ft-info">
+            <img class="ft-logo" src="images/ft_logo.png" alt="">
+            <ul class="ft-list">
+                <li>CONTENTS DEAL PTE. LTD.</li>
+                <li>16 COLLYER QUAY #17-00 INCOME AT RAFFLES SINGAPORE (049318)</li>
+                <li>Commercial number : 201835338W</li>
+                <li><a href="mailto:fotrise@naver.com" class="ft-mail"><img src="images/icon_mail.png" alt="CONDEAL">info@condeal.net</a>
+                </li>
+            </ul>
+        </div>
+        <div class="ft-sns">
+            <a href="https://twitter.com/Condeal_Team" target="_blank"><img src="images/sns_twiter.png" alt=""></a>
+            <a href="https://medium.com/@condeal_team" target="_blank"><img src="images/sns_medium.png" alt=""></a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

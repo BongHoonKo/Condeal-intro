@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>CONDEAL</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#09a7b4">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#09a7b4">
+    <link href="./static/favi.ico" rel="shortcut icon">
+    <link rel="stylesheet" href="css/index.css"/>
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/language.js"></script>
+</head>
+<body>
+<!-- Header -->
+<header class="hd">
+    <div class="hd__lang-wrap mo">
+        <select class="hd__lang">
+            <option class="lang-link" value="ko">KOR</option>
+            <option class="lang-link" value="en">ENG</option>
+            <option class="lang-link" value="zh">CHN</option>
+        </select>
+    </div>
+    <h1 class="hd__logo"><a href="index.html"><img src="images/common/logo.png" alt="CONDEAL"></a></h1>
+    <nav class="hd__navi">
+        <ul class="hd__menu">
+            <li><a href="index.html">CONDEAL</a></li>
+            <li><a href="deal.html">DEAL</a></li>
+            <li><a href="structure.html">structure</a></li>
+            <li><a href="scenario.html">scenario</a></li>
+            <li><a href="team.html">team</a></li>
+            <li><a href="partners.html">partners</a></li>
+        </ul>
+        <div class="hd__lang-wrap pc">
+            <select class="hd__lang">
+                <option class="lang-link" value="ko">KOR</option>
+                <option class="lang-link" value="en">ENG</option>
+                <option class="lang-link" value="zh">CHN</option>
+            </select>
+        </div>
+        <!--<div class="hd__lang-wrap pc">-->
+        <!--<button class="lang-link" v-on:click="changeLocale('ko')">KO</button>-->
+        <!--<button class="lang-link" v-on:click.prevent="changeLocale('en')">EN</button>-->
+        <!--</div>-->
+    </nav>
+    <button class="hd-menu__btn">
+        <i class="hd-menu__btn__line"></i>
+    </button>
+    <div class="bg-mo-menu"></div>
+</header>
+
+<!-- Content -->
+<div class="contents">
+    <section class="deal-main__wrap">
+        <article class="deal-main layout">
+            <img src="images/deal_main_ko.png" alt="">
+        </article>
+    </section>
+    <div class="paper-label">
+        <div class="paper-inner layout">
+            <p class="paper-txt">
+                <img class="paper-img" src="images/condeal/icon_book.png" alt="">
+                <span class="paper-desc">
+            <i>DEAL</i>
+            WHITEPAPER
+          </span>
+                <a href="https://s3.ap-northeast-2.amazonaws.com/condeal.net/deal_whitepaper_ko.pdf" target="_blank"  class="each-down">KOREAN<img src="images/icon_download.png" alt=""></a>
+                <a href="javascript:void(0)" class="disable each-down">ENGLISH<img src="images/icon_download.png" alt=""></a>
+                <a href="javascript:void(0)" class="disable each-down">CHINESE<img src="images/icon_download.png" alt=""></a>
+            </p>
+        </div>
+    </div>
+    <section class="deal-sub-1__wrap">
+        <article class="deal-sub-1 layout">
+            <img src="images/deal_sub_1_ko.png" alt="">
+        </article>
+    </section>
+    <section class="deal-sub-2__wrap">
+        <article class="deal-sub-2 layout">
+            <div class="graph-wrap graph-1">
+                <img class="deal-graph__txt" src="images/graph_1_txt.png" alt=""/>
+                <img class="deal-graph" src="images/graph_1_ko.png" alt="">
+            </div>
+            <div class="deal-sub-2-box-wrap">
+                <div class="deal-sub__box">
+                    <h5>Issuance</h5>
+                    <ul class="issuance__box">
+                        <li><p data-translate="deal.issuance['list1']"></p><em>Condeal ( Singapore )</em></li>
+                        <li><p data-translate="deal.issuance['list2']"></p><em>ERC20</em></li>
+                        <li><p data-translate="deal.issuance['list3']"></p><em>300 million DEAL</em></li>
+                        <li><p data-translate="deal.issuance['list4']"></p><em data-translate="deal.issuance.list4Txt"></em></li>
+                        <li><p data-translate="deal.issuance['list5']"></p><em>PoC (Proof of Copyright) <br/>PoW + PoS</em></li>
+                    </ul>
+                </div>
+                <div class="deal-sub__box">
+                    <h5 class="team__box-title" data-translate="deal.team.title"></h5>
+                    <ul class="team__box">
+                        <li>6 month<em>-10,000,000</em></li>
+                        <li>12 month<em>-10,000,000</em></li>
+                        <li>18 month<em>-10,000,000</em></li>
+                        <li>24 month<em>-10,000,000</em></li>
+                    </ul>
+                    <p class="right__txt">
+                        <span class="txt-inherit" data-translate="deal.team['rightTxt1']"></span><br/>
+                        <span class="txt-inherit" data-translate="deal.team['rightTxt2']"></span><br/>
+                        <span class="txt-inherit" data-translate="deal.team['rightTxt3']"></span><br/>
+                        <span class="txt-inherit" data-translate="deal.team['rightTxt4']"></span>
+                    </p>
+                </div>
+                <br/>
+                <p class="deal-feature__description">
+                    <span class="txt-inherit" data-translate="deal.team['feature1']"></span><br/>
+                    <span class="txt-inherit" data-translate="deal.team['feature2']"></span>
+                </p>
+            </div>
+            <div class="graph-wrap graph-2">
+                <img class="deal-graph__txt" src="images/graph_2_txt.png" alt=""/>
+                <img class="deal-graph" src="images/graph_2.png" alt="">
+            </div>
+            <div class="deal-sub__box condeal-sub__box">
+                <h5 data-translate="deal.condeal.title"></h5>
+                <ul class="condeal__box">
+                    <li>
+                        <span class="txt-inherit"data-translate="deal.condeal['list1']"></span>
+                        <em>40,000,000</em>
+                    </li>
+                    <li>
+                        <span class="txt-inherit"data-translate="deal.condeal['list2']"></span>
+                        <em>30,000,000</em>
+                    </li>
+                    <li>
+                        <span class="txt-inherit"data-translate="deal.condeal['list3']"></span>
+                        <em>30,000,000</em>
+                    </li>
+                </ul>
+            </div>
+        </article>
+    </section>
+</div>
+
+<!-- Footer -->
+<footer class="ft">
+    <div class="layout">
+        <div class="ft-info">
+            <img class="ft-logo" src="images/ft_logo.png" alt="">
+            <ul class="ft-list">
+                <li>CONTENTS DEAL PTE. LTD.</li>
+                <li>16 COLLYER QUAY #17-00 INCOME AT RAFFLES SINGAPORE (049318)</li>
+                <li>Commercial number : 201835338W</li>
+                <li><a href="mailto:fotrise@naver.com" class="ft-mail"><img src="images/icon_mail.png" alt="CONDEAL">info@condeal.net</a>
+                </li>
+            </ul>
+        </div>
+        <div class="ft-sns">
+            <a href="https://twitter.com/Condeal_Team" target="_blank"><img src="images/sns_twiter.png" alt=""></a>
+            <a href="https://medium.com/@condeal_team" target="_blank"><img src="images/sns_medium.png" alt=""></a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

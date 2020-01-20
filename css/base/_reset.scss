@@ -1,0 +1,54 @@
+/*reset*/
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+*, body, html, body, div, p, h1, h2, h3, h4, h5, h6, dl, dt, dd, ol, ul, li, blockquote, pre, button, fieldset, form, legend, table, caption, tbody, tfoot, thead, tr, th, td, iframe, article, aside, canvas, details, embed, figure, figcaption, header, footer, menu, nav, section, summary, audio, video {
+  font-family: $korea;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: $black;
+  letter-spacing: -0.025em;
+  @media screen and (max-width: 1080px) {
+    font-size: 15px;
+  }
+  @media screen and (max-width: 600px) {
+    font-size: 13px;
+  }
+}
+
+ul, li {
+  list-style: none;
+}
+
+br {
+  opacity: 0;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a:link {
+  text-decoration: none;
+}
+
+img {
+  border: none;
+  max-width: 100%;
+}
+
+button {
+  cursor: pointer;
+  border: 0;
+  background: none;
+  &:focus {
+    outline: none;
+  }
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>CONDEAL</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#09a7b4">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#09a7b4">
+    <link href="./static/favi.ico" rel="shortcut icon">
+    <link rel="stylesheet" href="css/index.css"/>
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/language.js"></script>
+</head>
+<body>
+<!-- Header -->
+<header class="hd">
+    <div class="hd__lang-wrap mo">
+        <select class="hd__lang">
+            <option class="lang-link" value="ko">KOR</option>
+            <option class="lang-link" value="en">ENG</option>
+            <option class="lang-link" value="zh">CHN</option>
+        </select>
+    </div>
+    <h1 class="hd__logo"><a href="index.html"><img src="images/common/logo.png" alt="CONDEAL"></a></h1>
+    <nav class="hd__navi">
+        <ul class="hd__menu">
+            <li><a href="index.html">CONDEAL</a></li>
+            <li><a href="deal.html">DEAL</a></li>
+            <li><a href="structure.html">structure</a></li>
+            <li><a href="scenario.html">scenario</a></li>
+            <li><a href="team.html">team</a></li>
+            <li><a href="partners.html">partners</a></li>
+        </ul>
+        <div class="hd__lang-wrap pc">
+            <select class="hd__lang">
+                <option class="lang-link" value="ko">KOR</option>
+                <option class="lang-link" value="en">ENG</option>
+                <option class="lang-link" value="zh">CHN</option>
+            </select>
+        </div>
+        <!--<div class="hd__lang-wrap pc">-->
+        <!--<button class="lang-link" v-on:click="changeLocale('ko')">KO</button>-->
+        <!--<button class="lang-link" v-on:click.prevent="changeLocale('en')">EN</button>-->
+        <!--</div>-->
+    </nav>
+    <button class="hd-menu__btn">
+        <i class="hd-menu__btn__line"></i>
+    </button>
+    <div class="bg-mo-menu"></div>
+</header>
+
+<!-- Content -->
+<div class="contents">
+    <section class="structure-main__wrap">
+        <article class="structure-main layout mo-pdd">
+            <img class="structure-main__img" src="images/structure/structure_main.png" alt=""/>
+            <ul class="structure-intro">
+                <li>
+                    <img src="images/structure/structure_1.png" alt=""/>
+                    <h5 data-translate="structure.intro1"></h5>
+                    <p>DEAL</p>
+                </li>
+                <li>
+                    <img src="images/structure/structure_2.png" alt=""/>
+                    <h5 data-translate="structure.intro2"></h5>
+                    <p>Digital Contents</p>
+                </li>
+                <li>
+                    <img src="images/structure/structure_3.png" alt=""/>
+                    <h5 data-translate="structure.intro3"></h5>
+                    <p>Profit Share</p>
+                </li>
+            </ul>
+            <img class="structure-role__img" src="images/structure/structure_role_ko.png" alt="">
+        </article>
+    </section>
+
+    <section class="structure-platform__wrap structure-sub">
+        <article class="structure-platform layout mo-pdd">
+            <img class="title-bar" src="images/common/title_line.png" alt=""/>
+            <h3 data-translate="structure.subTitle1"></h3>
+            <div class="structure-sub__img-wrap">
+                <img class="structure-sub__img platform__img" src="images/structure/structure_platform_ko.png" alt="">
+            </div>
+        </article>
+    </section>
+
+    <section class="structure-exchange__wrap structure-sub">
+        <article class="structure-exchange layout mo-pdd">
+            <img class="title-bar" src="images/common/title_line.png" alt=""/>
+            <h3 data-translate="structure.subTitle2"></h3>
+            <div class="structure-sub__img-wrap platform">
+                <img class="structure-sub__img path__img" src="images/structure/structure_path_ko.png" alt="">
+            </div>
+        </article>
+    </section>
+
+    <section class="structure-bottom__wrap">
+        <article class=" structure-bottom layout mo-pdd">
+            <img src="images/structure/structure_bottom.png" alt="">
+        </article>
+    </section>
+</div>
+
+<!-- Footer -->
+<footer class="ft">
+    <div class="layout">
+        <div class="ft-info">
+            <img class="ft-logo" src="images/ft_logo.png" alt="">
+            <ul class="ft-list">
+                <li>CONTENTS DEAL PTE. LTD.</li>
+                <li>16 COLLYER QUAY #17-00 INCOME AT RAFFLES SINGAPORE (049318)</li>
+                <li>Commercial number : 201835338W</li>
+                <li><a href="mailto:fotrise@naver.com" class="ft-mail"><img src="images/icon_mail.png" alt="CONDEAL">info@condeal.net</a>
+                </li>
+            </ul>
+        </div>
+        <div class="ft-sns">
+            <a href="https://twitter.com/Condeal_Team" target="_blank"><img src="images/sns_twiter.png" alt=""></a>
+            <a href="https://medium.com/@condeal_team" target="_blank"><img src="images/sns_medium.png" alt=""></a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,209 @@
+.partners-kmf {
+  width: 100%;
+  background-image: url('../images/partner/partner_kmf_bg.jpg');
+  background-size: cover;
+  background-position: center 1px;
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  .section-tit {
+    padding: 4.5rem 1rem 2rem;
+    text-indent: 1.2rem;
+    @media all and (max-width: 450px) {
+      padding: 2rem 1rem 1rem;
+      text-indent: 0;
+      img {
+        width: 1.5rem;
+      }
+    }
+    p {
+      color: white;
+      font-size: 2.778rem;
+      font-weight: 700;
+      line-height: 3rem;
+      @media all and (max-width: 380px) {
+        font-size: 2.2rem;
+      }
+    }
+  }
+  .partner-kmf {
+    padding-bottom: 6.1rem;
+    .partner__list {
+      padding: 0 10px 0 20px;
+      width: 100%;
+      margin-top: 1.5rem;
+      @include clearfix;
+      li {
+        width: calc((100% / 7) - 10px);
+        margin-right: 10px;
+        margin-bottom: 10px;
+        float: left;
+        img {
+          vertical-align: middle;
+        }
+        &:nth-of-type(7n) {
+          margin-right: 0;
+        }
+      }
+      @media all and (max-width: 990px) {
+        padding: 0 .3em 0 1em;
+        li {
+          width: calc((100% / 4) - 10px);
+          &:nth-of-type(7n) {
+            margin-right: 10px;
+          }
+          &:nth-of-type(4n) {
+            margin-right: 0;
+          }
+          &:nth-of-type(8),
+          &:nth-of-type(12) {
+            display: none;
+          }
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+    h3 {
+      color: #fff;
+      font-size: 1.444rem;
+      padding-left: 35px;
+      margin-top: 35px;
+      font-weight: 400;
+      line-height: 1.5em;
+      @media all and (max-width: 600px) {
+        letter-spacing: -0.075em;
+        margin-top: 15px;
+      }
+    }
+    p {
+      color: #fff;
+      font-size: 1rem;
+      padding-left: 35px;
+      line-height: 1.5em;
+      margin-top: 1.8rem;
+      @media all and (max-width: 600px) {
+        br {
+          display: none;
+        }
+      }
+    }
+    @media all and (max-width: 990px) {
+      h3 {
+        padding-left: 1rem;
+        font-size: 1.1rem;
+      }
+      p {
+        padding-left: 1.1rem;
+        margin-top: 1.8rem;
+      }
+    }
+  }
+  .kmf-bar__wrap {
+    padding-left: 48px;
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    img {
+      vertical-align: middle;
+    }
+    @media all and (max-width: 1150px) {
+      width: 100%;
+    }
+  }
+  .kmf-bar {
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 3rem 48px;
+  }
+  @media all and (max-width: 990px) {
+    padding-top: 80px;
+    .partner-kmf-top {
+      padding-top: 1rem;
+      margin-bottom: 1rem;
+      padding-left: 1rem;
+      width: 90%;
+    }
+    .kmf-bar {
+      padding: 1.5rem 4rem;
+      @media all and (max-width: 450px) {
+        padding: 1.5rem 3rem;
+      }
+      .kmf-bar__wrap {
+        padding-left: 0;
+        width: 65%;
+        margin: 0;
+      }
+    }
+  }
+}
+
+.partners-kstar {
+  padding: 10rem 0;
+  background: {
+    image: url("../images/partner/kstar_bg.png");
+    position: center top;
+    repeat: no-repeat;
+    size: cover;
+  };
+  .kstar-tit {
+    text-align: center;
+    margin-bottom: 5rem;
+    @media all and (max-width: 500px) {
+      margin-bottom: 3rem;
+    }
+    .kstar-logo{
+      display: block;
+      margin: 0 auto 3rem;
+      @media all and (max-width: 500px) {
+        width: 33.33%;
+        margin: 0 auto 1rem;
+      }
+    }
+    .kstar-slo {
+      @media all and (max-width: 500px) {
+        width: 55%;
+      }
+    }
+  }
+  .kstar-list {
+    width: 840px;
+    margin: 0 auto;
+    @media all and (max-width: 990px) {
+      width: 90%;
+    }
+    li {
+      margin-bottom: 2rem;
+      .logo-area {
+        background-color: white;
+        padding: 3.5rem 2rem 1rem;
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+      }
+      .desc-area {
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 7px;
+        background: {
+          image: url("../images/partner/kstar_txt_bg.png");
+          position: calc(100% + 2rem) center;
+          repeat: no-repeat;
+          size: auto;
+          color: #f2f2f2;
+        };
+        padding: 2rem 2rem 3.5rem;
+        @media all and (max-width: 600px) {
+          background: {
+            position: calc(100% + 2rem) bottom;
+            size: 70%;
+          };
+        }
+        p {
+          font-size: 1rem;
+          font-weight: 400;
+          &:nth-of-type(n+2) {
+            margin-top: 2rem;
+          }
+        }
+      }
+    }
+  }
+}

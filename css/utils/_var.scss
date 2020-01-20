@@ -1,0 +1,32 @@
+$black: #212223;
+$white: #ffffff;
+$purple: #6b58a7;
+$navy: #3d4268;
+$grey: #464646;
+$lgrey: #a9a9a9;
+$red: #f74242;
+$border: #ccc;
+$green: #09a7b4;
+
+
+//font
+$korea: 'Noto Sans CJK', sans-serif, 'Malgun Gothic', '맑은 고딕';
+
+
+//break point
+$breakpoints: (
+        '1250': (max-width: 1250px),
+        '1200': (max-width: 1200px),
+        '990': (max-width: 990px),
+        '900': (max-width: 900px),
+        '765': (max-width: 765px),
+        '600': (max-width: 600px),
+        '500': (max-width: 500px),
+        '450': (max-width: 450px),
+        '400': (max-width: 400px),
+        '350': (max-width: 350px),
+) !default;
+
+
+$nor: no-repeat; //background-repeat: no-repeat;
+$center: 50% 50%; //background-position: 50% 50%;

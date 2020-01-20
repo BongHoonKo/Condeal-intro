@@ -1,0 +1,109 @@
+.structure-main__wrap {
+  width: 100%;
+  background-image: url('../images/structure/structure_bg_1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  padding-top: 100px;
+  padding-bottom: 12rem;
+  text-align: center;
+  @media screen and (max-width: 1080px) {
+    padding-top: 0;
+    padding-bottom: 6rem;
+  }
+
+  .structure-main {
+    .structure-main__img {
+      margin:115px 0 3.3rem 0;
+      @media screen and (max-width: 1080px) {
+        margin-bottom: 1.65rem;
+      }
+    }
+    .structure-intro {
+      width: 805px;
+      margin: 0 auto;
+      margin-bottom: 8.5rem;
+      @include clearfix;
+      @media screen and (max-width: 870px) {
+        width: 100%;
+        margin-bottom: 5rem;
+      }
+      li {
+        width: 33.333%;
+        width: calc(100% / 3);
+        float: left;
+        h5 {
+          font-size: 1.2rem;
+          margin-bottom: 0.5rem;
+          @media screen and (max-width: 600px) {
+            font-size: 1rem;
+          }
+          @media screen and (max-width: 320px) {
+            font-size: 0.95rem;
+          }
+        }
+        p {
+          color: #7b7d7e;
+          font-size: 1.12rem;
+          @media screen and (max-width: 600px) {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+}
+.structure-sub {
+  padding: 3.6rem 0 8.3rem 0;
+  height: 860px;
+  position: relative;
+  @media screen and (max-width: 1080px) {
+    height: auto;
+    padding: 2.5rem 0 4rem 0;
+  }
+  .title-bar {
+    margin-bottom: 13px;
+  }
+  .structure-sub__img-wrap {
+    &.platform {
+      position: absolute;
+      top: 50%;
+      margin-top: -82.5px;
+      left: 50%;
+      margin-left: -455.5px;
+      @media screen and (max-width: 1080px) {
+        position: static;
+        margin-top: 0;
+        margin-left: 0;
+      }
+    }
+  }
+  .structure-sub__img {
+    margin: 0 auto;
+    display: block;
+  }
+  h3 {
+    margin-bottom: 5.25rem;
+    font-size: 1.4rem;
+    letter-spacing: normal;
+    @media screen and (max-width: 1080px) {
+      margin-bottom: 2.7rem;
+    }
+    @media screen and (max-width: 600px) {
+      font-size: 1.3rem;
+    }
+  }
+}
+.structure-exchange__wrap {
+  background-image: url('../images/structure/structure_bg_2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.structure-bottom__wrap {
+  padding: 8.8rem 0 11rem 0;
+  text-align: center;
+  @media screen and (max-width: 1080px) {
+    padding: 4.4rem 0 5.5rem 0;
+  }
+}
